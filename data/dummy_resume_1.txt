@@ -1,0 +1,11 @@
+Jane Doe
+Software Engineer
+
+Experience:
+- Senior Developer at TechCorp (2020-Present): Developed backend services using Python. Managed Product Management tasks for 2 years.
+- Junior Developer at StartUp (2016-2020): Worked with SQL databases for 2 years.
+
+Skills:
+- Python (4 years)
+- SQL (2 years)
+- Product Management (2 years)

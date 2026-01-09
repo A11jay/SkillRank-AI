@@ -1,0 +1,11 @@
+We are looking for a Senior Software Engineer to join our team.
+
+Must-Have Skills:
+- 4+ years of experience with Python.
+- Strong background in Product Management.
+- Experience with building scalable systems.
+
+Nice-to-Have Skills:
+- Proficiency in SQL.
+- Familiarity with AWS.
+- Experience with Docker.

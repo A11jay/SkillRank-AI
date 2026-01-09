@@ -1,0 +1,11 @@
+John Smith
+Backend Developer
+
+Experience:
+- Developer at BigBank (2019-Present): specialized in SQL optimization. Used Python for scripting.
+- Engineer at CloudSys (2018-2019): Deployed apps to AWS.
+
+Skills:
+- SQL (5 years)
+- Python (1 year)
+- AWS (1 year)

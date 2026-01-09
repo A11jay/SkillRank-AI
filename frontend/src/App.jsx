@@ -90,7 +90,7 @@ function App() {
         <header className="flex items-center justify-between pb-6 border-b border-slate-800">
           <div className="flex items-center gap-4">
             <div className="w-24 h-24 rounded-xl overflow-hidden shadow-lg shadow-indigo-500/20 border border-slate-700 bg-slate-900 flex items-center justify-center">
-              <Award className="w-12 h-12 text-indigo-500" />
+              <img src="/logo.svg" alt="SkillRank AI Logo" className="w-full h-full object-cover p-2" />
             </div>
             <div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">

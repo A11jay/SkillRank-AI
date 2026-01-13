@@ -8,8 +8,8 @@ import { logoBase64 } from './logoData';
 const API_URL = '/api';
 
 function App() {
-  const [apiKey, setApiKey] = useState('');
-  const [modelName, setModelName] = useState('gemini-1.5-flash');
+  const [apiKey, setApiKey] = useState('AIzaSyB1YZym4QU0A3kMIb_SNXIoYI_WFfo2hos');
+  const [modelName, setModelName] = useState('models/gemma-3-27b-it');
   const [jdText, setJdText] = useState('');
   const [jdSkills, setJdSkills] = useState(null);
 
@@ -23,10 +23,11 @@ function App() {
   const fileInputRef = useRef(null);
 
   const handleParseJD = async () => {
-    if (!apiKey) {
-      setError("Please enter your Gemini API Key.");
-      return;
-    }
+    // API Key is now hardcoded
+    // if (!apiKey) {
+    //   setError("Please enter your Gemini API Key.");
+    //   return;
+    // }
     setAnalyzingJD(true);
     setError(null);
     try {
@@ -100,7 +101,7 @@ function App() {
               <p className="text-slate-400 text-sm">Intelligent Resume Screening & Ranking</p>
             </div>
           </div>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <div className="flex flex-col">
               <label className="text-xs text-slate-500 mb-1 ml-1">Gemini Model</label>
               <select
@@ -124,7 +125,7 @@ function App() {
                 placeholder="Enter Gemini API Key"
               />
             </div>
-          </div>
+          </div> */}
         </header>
 
         {/* Main Content Grid */}

@@ -128,6 +128,22 @@ function App() {
           </div> */}
         </header>
 
+        {/* Description Box */}
+        <section className="bg-slate-900/50 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm shadow-xl">
+          <h2 className="text-lg font-semibold text-white mb-2">How it Works</h2>
+          <p className="text-slate-400 text-sm leading-relaxed">
+            SkillRank AI streamlines your hiring process in 4 simple steps:
+            <br />
+            1. <strong className="text-indigo-400">Paste the JD:</strong> Enter the Job Description to automatically extract "Must-Have" and "Nice-to-Have" skills.
+            <br />
+            2. <strong className="text-indigo-400">Review Skills:</strong> The AI identifies key technical skills. You can also add missing ones manually.
+            <br />
+            3. <strong className="text-indigo-400">Upload Resumes:</strong> Select candidate resumes (PDF or TXT).
+            <br />
+            4. <strong className="text-indigo-400">Get Ranked Results:</strong> The AI scores each candidate against your criteria and ranks them by fit.
+          </p>
+        </section>
+
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
 
